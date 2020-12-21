@@ -2743,7 +2743,7 @@
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-icons/-/natds-icons-1.0.0.tgz#2e0b7e412ceab45e7c3d58ef12719d6d6e8c827f"
   integrity sha512-/ujsEs3cwzaT0iy6tmW3+7dpgBYFZ4nCNwxDK9QtduHA5HtH0ku9uBFFnp4HwsSlFgRUfVvGpBMY/+JTBWPAqQ==
 
-"@naturacosmeticos/natds-themes@^0.4.8":
+"@naturacosmeticos/natds-themes@0.4.8":
   version "0.4.8"
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.8.tgz#ededfbdb19eecd2a980456b505406c5fc26f3568"
   integrity sha512-o4KVTaUQeNl2s1WWQf5aqZy8vhtdtu+BG7DzQ4DiDDb2qoU2i/jsDA/Rny1/IK8t+FwndUuACRnTuBuXDqb5OQ==
@@ -8390,7 +8390,7 @@ dot-case@^3.0.3:
     no-case "^3.0.3"
     tslib "^1.10.0"
 
-dot-prop@^4.2.0, dot-prop@^5.1.0, dot-prop@^5.2.0:
+dot-prop@5.3.0, dot-prop@^4.2.0, dot-prop@^5.1.0, dot-prop@^5.2.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.3.0.tgz#90ccce708cd9cd82cc4dc8c3ddd9abdd55b20e88"
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
@@ -14058,7 +14058,7 @@ node-fetch@^2.5.0, node-fetch@^2.6.0, node-fetch@^2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
-node-forge@^0.10.0:
+node-forge@0.10.0, node-forge@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
   integrity sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==
@@ -15805,7 +15805,7 @@ react-docgen@^5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
-react-dom@17.0.1, react-dom@^16.8.3, react-dom@^17.0.1:
+react-dom@17.0.1, react-dom@^16.8.3:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
   integrity sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
@@ -15940,7 +15940,7 @@ react-sizeme@^2.6.7:
     shallowequal "^1.1.0"
     throttle-debounce "^2.1.0"
 
-react-styleguidist@^11.1.5:
+react-styleguidist@11.1.5:
   version "11.1.5"
   resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-11.1.5.tgz#0ad13bdd02dc583244901731805ecc7aab9cac27"
   integrity sha512-19svre3SvBfhiVWuZoKHUmiodW5IZcXSr1JgalGgWrOy0JXOQOR3d3iFH7WMKzUWqi2JK4CJ17LTGqpjCXQb5w==
@@ -16056,7 +16056,7 @@ react-transition-group@^4.4.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@17.0.1, react@^16.8.3, react@^17.0.1:
+react@17.0.1, react@^16.8.3:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
   integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
@@ -17621,7 +17621,7 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@^1.316.1, snyk@^1.341.1:
+snyk@1.422.0, snyk@^1.316.1:
   version "1.422.0"
   resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.422.0.tgz#1485d237ecb85f3c2a542995284e2e2ce2269428"
   integrity sha512-hNvNl6uS85J5Wu7zC80MKfWjabvvX1J7sCjVkxqNe61/Klb1lsCK72AMPqmajmk4INGgWAFLDVJxDMCPrXU51g==
@@ -18888,7 +18888,7 @@ ts-essentials@^2.0.3:
   resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-2.0.12.tgz#c9303f3d74f75fa7528c3d49b80e089ab09d8745"
   integrity sha512-3IVX4nI6B5cc31/GFFE+i8ey/N2eA0CZDbo6n0yrz0zDX8ZJ8djmU1p+XRz7G3is0F3bB3pu2pAroFdAWQKU3w==
 
-ts-loader@^8.0.11:
+ts-loader@8.0.11:
   version "8.0.11"
   resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.11.tgz#35d58a65932caacb120426eea59eca841786c899"
   integrity sha512-06X+mWA2JXoXJHYAesUUL4mHFYhnmyoCdQVMXofXF552Lzd4wNwSGg7unJpttqUP7ziaruM8d7u8LUB6I1sgzA==

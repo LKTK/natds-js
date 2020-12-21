@@ -115,9 +115,9 @@
     "husky": "4.3.0",
     "jest": "26.6.1",
     "lerna": "3.22.1",
-    "react-styleguidist": "^11.1.5",
+    "react-styleguidist": "11.1.5",
     "shelljs": "0.8.4",
-    "ts-loader": "^8.0.11",
+    "ts-loader": "8.0.11",
     "typescript": "4.0.5",
     "yarn": "1.22.10"
   },
@@ -127,10 +127,10 @@
     }
   },
   "resolutions": {
-    "dot-prop": "^5.2.0",
-    "node-forge": "^0.10.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "dot-prop": "5.3.0",
+    "node-forge": "0.10.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "@types/react": "16.14.2"
   }
 }
